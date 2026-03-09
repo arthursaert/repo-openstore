@@ -82,21 +82,21 @@
       "name": "Krita",
       "description": "App de pintura",
       "category": "design",
-      "version": "5.12.16",
-      "plataforms": {
+      "version": "5.2.16",
+      "platforms": {
         "linux": {
           "url": "https://download.kde.org/stable/krita/5.2.16/krita-5.2.16-x86_64.AppImage",
-          "size_mb": "322",
+          "size_mb": 322,
           "format": "AppImage"
         },
         "windows": {
           "url": "https://download.kde.org/stable/krita/5.2.16/krita-x64-5.2.16-setup.exe",
-          "size_mb": "148",
+          "size_mb": 148,
           "format": "EXE"
         },
         "macos": {
           "url": "https://download.kde.org/stable/krita/5.2.16/krita-5.2.16-signed.dmg",
-          "size_mb": "353",
+          "size_mb": 353,
           "format": "DMG"
         }
       }
@@ -107,20 +107,22 @@
       "description": "Edição de imagens. Macs apenas Intel.",
       "category": "design",
       "version": "3.0.8",
-      "plataforms": {
+      "platforms": {
         "linux": {
           "url": "https://download.gimp.org/gimp/v3.0/linux/GIMP-3.0.8-1-x86_64.AppImage",
-          "size_mb": "215",
+          "size_mb": 215,
           "format": "AppImage"
         },
         "windows": {
           "url": "https://download.gimp.org/gimp/v3.0/windows/gimp-3.0.8-setup-2.exe",
-          "size_mb": "291",
+          "size_mb": 291,
           "format": "EXE"
         },
         "macos": {
           "url": "https://download.gimp.org/gimp/v3.0/macos/gimp-3.0.8-x86_64-1.dmg",
-          "size_mb": "244"
+          "size_mb": 244,
+          "format": "DMG",
+          "note": "Apenas Macs Intel"
         }
       }
     }
