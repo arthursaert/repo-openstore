@@ -1,0 +1,79 @@
+{
+  "store_name": "OpenStore",
+  "version": "1.0",
+  "last_updated": "2026-03-09",
+  "apps": [
+    {
+      "id": "blender",
+      "name": "Blender 3D",
+      "description": "Modelagem e animação 3D. Com arquivo Macs apenas Intel. LTS.",
+      "category": "design",
+      "version": "4.5.7",
+      "platforms": {
+        "linux": {
+          "url": "https://raw.githubusercontent.com/arthursaert/repo-openstore/main/apps/blender/blender-linux.AppImage",
+          "size_mb": 360,
+          "format": "Tarball"
+        },
+        "windows": {
+          "url": "https://raw.githubusercontent.com/Arthur/OpenApps/main/apps/blender/blender-windows.exe",
+          "size_mb": 280,
+          "format": "EXE"
+        },
+        "macos": {
+          "url": "https://raw.githubusercontent.com/Arthur/OpenApps/main/apps/blender/blender-macos.dmg",
+          "size_mb": 310,
+          "format": "DMG"
+        }
+      }
+    },
+    {
+      "id": "kdenlive",
+      "name": "Kdenlive",
+      "description": "Editor de vídeo. Macs apenas Intel.",
+      "category": "multimedia",
+      "version": "25.12.2",
+      "platforms": {
+        "linux": {
+          "url": "https://download.kde.org/stable/kdenlive/25.12/linux/kdenlive-25.12.2-x86_64.AppImage",
+          "size_mb": 195,
+          "format": "AppImage"
+        },
+        "windows": {
+          "url": "https://download.kde.org/stable/kdenlive/25.12/windows/kdenlive-25.12.2.exe",
+          "size_mb": 122,
+          "format": "EXE"
+        },
+        "macos": {
+          "url": "https://download.kde.org/stable/kdenlive/25.12/macOS/kdenlive-25.12.2-x86_64.dmg",
+          "size_mb": 2194,
+          "format": "DMG"
+        }
+      }
+    },
+    {
+      "id": "firefox",
+      "name": "Mozilla Firefox",
+      "description": "Navegador web",
+      "category": "internet",
+      "version": "148.0",
+      "platforms": {
+        "linux": {
+          "url": "https://download.mozilla.org/?product=firefox-latest-ssl&os=linux64",
+          "size_mb": 84,
+          "format": "Tarball"
+        },
+        "windows": {
+          "url": "https://download.mozilla.org/?product=firefox-latest-ssl&os=win64",
+          "size_mb": 87,
+          "format": "EXE"
+        },
+        "macos": {
+          "url": "https://download.mozilla.org/?product=firefox-latest-ssl&os=osx",
+          "size_mb": 149,
+          "format": "DMG"
+        }
+      }
+    }
+  ]
+}
