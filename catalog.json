@@ -6,31 +6,32 @@
     {
       "id": "blender",
       "name": "Blender 3D",
-      "description": "Modelagem e animação 3D. Com arquivo Macs apenas Intel. LTS.",
+      "description": "Modelagem e animação 3D. LTS. Macs Intel apenas.",
       "category": "design",
       "version": "4.5.7",
       "platforms": {
         "linux": {
-          "url": "https://raw.githubusercontent.com/arthursaert/repo-openstore/main/apps/blender/blender-linux.AppImage",
+          "url": "https://download.blender.org/release/Blender4.5/blender-4.5.7-linux-x64.AppImage",
           "size_mb": 360,
-          "format": "Tarball"
+          "format": "AppImage"
         },
         "windows": {
-          "url": "https://raw.githubusercontent.com/Arthur/OpenApps/main/apps/blender/blender-windows.exe",
+          "url": "https://download.blender.org/release/Blender4.5/blender-4.5.7-windows-x64.zip",
           "size_mb": 280,
-          "format": "EXE"
+          "format": "ZIP"
         },
         "macos": {
-          "url": "https://raw.githubusercontent.com/Arthur/OpenApps/main/apps/blender/blender-macos.dmg",
+          "url": "https://download.blender.org/release/Blender4.5/blender-4.5.7-macos-x64.dmg",
           "size_mb": 310,
-          "format": "DMG"
+          "format": "DMG",
+          "note": "Apenas Macs Intel"
         }
       }
     },
     {
       "id": "kdenlive",
       "name": "Kdenlive",
-      "description": "Editor de vídeo. Macs apenas Intel.",
+      "description": "Editor de vídeo. Macs Intel apenas.",
       "category": "multimedia",
       "version": "25.12.2",
       "platforms": {
@@ -47,7 +48,8 @@
         "macos": {
           "url": "https://download.kde.org/stable/kdenlive/25.12/macOS/kdenlive-25.12.2-x86_64.dmg",
           "size_mb": 2194,
-          "format": "DMG"
+          "format": "DMG",
+          "note": "Apenas Macs Intel"
         }
       }
     },
